@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/*font-family: 'Lato', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+/*font-family: 'Playfair Display', serif;*/
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: 'Playfair Display', serif;
+}
+
+h3 {
+	font-size: 16px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #b4b4b4;
+}
+
+a:hover {
+	color: #000000;
+}
+
+ul {
+	padding: 0;
+}
+
+.container-fluid {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.myButton {
+	height: 45px;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 50px;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: #b4b4b4;
+}
+
+.navbar {
+	margin: 0;
+}
+
+.topLine {
+	border-bottom: 1px solid #b4b4b4;
+	border-top: 1px solid #b4b4b4;
+	margin-bottom: 72px;
+	padding: 12px 185px 12px 108px;
+}
+
+.mainMenu {
+	margin: 30px 0 0 16%;
+}
+
+.topLineRight,
+.topLineLeft {
+	padding-top: 14px;
+	padding-right: 4%;
+	letter-spacing: 1.4px;
+}
+
+.topLineRight ul li a,
+.topLineLeft ul li a,
+.mainMenu ul li a,
+.lastMenuList ul li a,
+.sort ul li a,
+.footMenu ul li a {
+	text-decoration: none;
+}
+
+.topLineRight ul li,
+.sort ul li,
+.footMenu ul li {
+	display: inline-block;
+	margin-left: 30px;
+	text-transform: uppercase;
+}
+
+.mainMenu ul li {
+	display: inline-block;
+	margin-right: 52px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+}
+
+.topLineLeft ul li,
+.lastMenuList ul li {
+	display: inline-block;
+	margin-right: 30px;
+	text-transform: uppercase;
+	letter-spacing: 1.4px;
+}
+.topLineRight {
+	float: right;
+}
+
+.topLineLeft {
+	float: left;
+	margin-left: 6.5%;
+}
+
+.dropdown-toggle i {
+	margin-left: 15px;
+	color: #6C6C6C;
+}
+
+.navbar-header {
+	width: 100%;
+}
+
+.headLogo,
+.mainMenu {
+	float: left;
+}
+
+.headLogo {
+	padding-left: 8.5%;
+}
+
+.headLogo span {
+	font-family: 'Playfair Display', serif;
+	font-size: 52px;
+}
+
+.lastMenuList {
+	float: right;
+}
+
+.mainMenu ul li a,
+.lastMenuList ul li a {
+	font-size: 12px;
+}
+
+.mainMenu ul li a:hover,
+.lastMenuList ul li a:hover,
+.sort ul li a:hover {
+	border-bottom: 2px solid #1476d4;
+	padding-bottom: 8px;
+}
+
+.lastMenuList {
+	margin: 12px 0 0 0;
+}
+
+.lastMenuList ul li {
+	margin-right: 15px;
+}
+
+.circle {
+	width: 48px;
+	height: 48px;
+	border: 2px solid #1476d4;
+	border-radius: 50px;
+	text-align: center;
+	padding: 12px;
+}
+
+.search {
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 6px !important;
+	margin-top: 13px;
+	color: #b4b4b4;
+}
+.content h1, 
+.price,
+.name {
+	text-align: center;
+}
+
+.content {
+	padding-right: 120px;
+}
+
+.content h1 {
+	font-size: 58px;
+}
+.portfolio-area {
+	margin-left: 5%;
+}
+.sort {
+	margin: 57px 0px 46px 26%;
+	font-size: 13px;
+	letter-spacing: 1.4px;
+}
+
+.sort ul li {
+	margin: 0 43px 0 0;
+}
+
+.image-block img {
+	background-color: #eae8e9;
+}
+.portfolio-item2 {
+	float: left;
+	margin: 0 -22px 0 0;
+}
+
+.price ul {
+	padding: 0;
+	margin: 0;
+}
+
+.price li {
+	list-style: none;
+	display: inline-block;
+}
+.price h5 {
+	margin-bottom: 35px;
+}
+
+.newProd {
+	background-color: #1476d4;
+	border-radius: 12px;
+	padding: 5px 12px;
+	color: #ffffff;
+	font-size: 11px;
+	position: absolute;
+	z-index: 10;
+	top: 24px;
+	left: 38px;
+}
+
+.name h3 {
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+.product h5 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #b4b4b4;
+}
+
+.product h5 .newPrice {
+	color: #fc411d;
+	padding-left: 10px;
+}
+
+.contentButt {
+	margin: 3px 0 42px 45%;
+	letter-spacing: 1.4px;
+}
+
+.content2 {
+	background-image: url(images/blueLine_24.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 287px;
+	padding-right: 8%;
+}
+
+.content2 h4 {
+	margin: 67px auto 0px auto;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	letter-spacing: 1.4px;
+}
+
+.content2 h2 {
+	text-align: center;
+	color: #ffffff;
+	font-size: 38px;
+	margin-top: 18px;
+}
+
+.buttBlueLine {
+	color: #ffffff;
+	padding: 0px 23px;
+	margin: 19px auto 70px 38.5%;
+	height: 48px;
+	letter-spacing: 1.4px;
+}
+
+.buttBlueLine i {
+	padding-left: 90px;
+	font-size: 18px;
+}
+
+.footMenu, .lastFootList {
+	float: left;
+}
+
+.footMenu {
+	margin: 44px 30px 50px 16%;
+	letter-spacing: 1.4px;
+}
+
+.footMenu ul li {
+	margin: 0 53px 0 0;
+}
+
+.footMenu ul li a {
+	color: #000000;
+}
+
+.lastFootList {
+	margin: 44px 0 0 0;
+	color: #b4b4b4;
+	font-size: 12px;
+	letter-spacing: 1.4px;
+}
+
+footer .headLogo {
+	margin: 13px 0 0 6.7%;
+	padding: 0;
+}
+
+.headLogo .end {
+	font-family: 'Lato', sans-serif;
+	font-size: 28px;
+}
